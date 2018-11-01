@@ -1,3 +1,4 @@
+```php
 vagrant 镜像,
 1. git clone git@github.com:wxxbard/vagrant_centos7_lnmp.git
 2. vagrant up 
@@ -39,3 +40,4 @@ server {
         include        fastcgi_params;
     }
 }
+```
