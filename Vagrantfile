@@ -68,7 +68,7 @@ Vagrant.configure("2") do |config|
   # SHELL
 
   #设置
-  config.vm.box = "wxxbard/centos7_LNMP"
+  config.vm.box = "wxxbard/centos7LNMP"
   config.vm.synced_folder "D:/","/data/" ,owner:"root",group:"root",create:true,mount_options:["dmode=777","fmode=777"]
   config.vm.synced_folder ".","/vagrant",disabled:true 
   config.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
